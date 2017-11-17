@@ -1,0 +1,17 @@
+{
+  "name": "Log",
+  "description": "Log transform the given data",
+  "tags": ["simple statistics"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/log_operator"],
+  "properties": [
+   {
+    "kind": "DoubleProperty",
+    "name": "base",
+    "defaultValue": 10,
+    "description": "The base with respect to which logarithms are computed. "
+  }
+]
+}
+
+
