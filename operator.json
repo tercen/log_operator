@@ -9,7 +9,7 @@
     "kind": "DoubleProperty",
     "name": "base",
     "defaultValue": 10,
-    "description": "The base with respect to which logarithms are computed. "
+    "description": "The base with respect to which logarithms are computed."
   }
 ]
 }
