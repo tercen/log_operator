@@ -3,7 +3,7 @@ library(dplyr)
 
 (ctx = tercenCtx()) %>% 
   select(.y) %>% 
-  transmute(log = log(mean(.y), base=as.double(ctx$op.value('base')))) %>%
+  transmute(log = log(.y, base=as.double(ctx$op.value('base')))) %>%
   ctx$addNamespace() %>%
   ctx$save()
- 
+  
