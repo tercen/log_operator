@@ -131,13 +131,13 @@ GithubSubdir: rtson
 
 Package: tercen
 Source: github
-Version: 0.5.1
-Hash: 57457ed4ba699ae4d526e9d6134d131b
+Version: 0.5.4
+Hash: 5e43058fefd4e6187997bc99ed24e309
 Requires: R6, dplyr, httr, jsonlite, rtson, tibble, yaml
 GithubRepo: teRcen
 GithubUsername: tercen
-GithubRef: 0.5.1
-GithubSha1: 50f66c373a333ded5c1ff066041806ea2d3a0835
+GithubRef: 0.5.4
+GithubSha1: d40a5db44a30906a1915c9df247a7858f4f05134
 
 Package: tibble
 Source: CRAN
