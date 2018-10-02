@@ -1,10 +1,35 @@
-# Log
+# log operator
 
-```
-https://github.com/tercen/log_operator.git
-```
+#### Description
+`log` operator performs a log of values
 
-```R
-packrat::init(options = list(use.cache = TRUE))
-```
+##### Usage
+Input projection|.
+---|---
+`y-axis` | values to be logged
 
+Input parameters|.
+---|---
+`base` | numeric, log base
+
+Output relations|.
+---|---
+`lob`| numeric, log per data point
+
+##### Details
+A log of values is performed.
+
+
+#### References
+see the `base::log` function of the R package for the documentation, 
+
+
+##### See Also
+
+#### Examples
+
+
+
+
+ 
+ 
