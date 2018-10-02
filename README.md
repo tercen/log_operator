@@ -14,7 +14,7 @@ Input parameters|.
 
 Output relations|.
 ---|---
-`lob`| numeric, log per data point
+`log`| numeric, log per data point
 
 ##### Details
 A log of values is performed.
