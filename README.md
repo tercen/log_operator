@@ -10,7 +10,7 @@ Input projection|.
 
 Input parameters|.
 ---|---
-`base` | numeric, log base
+`base` | numeric, log base, default is 10
 
 Output relations|.
 ---|---
