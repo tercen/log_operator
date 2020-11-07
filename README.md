@@ -16,11 +16,11 @@ Input parameters|.
 
 Output relations|.
 ---|---
-`log`| numeric, log per data point
+`log`| numeric, log per cell
 
 ##### Details
 
-A log of values is performed.
+A log of values is performed. The computation is done per cell.
 
 ##### References
 
