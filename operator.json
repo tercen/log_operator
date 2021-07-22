@@ -1,6 +1,6 @@
 {
   "name": "Log",
-  "description": "Log transform the given data",
+  "description": "Transforms cell by calculating the logarithmic values.",
   "tags": ["data wrangling", "data transformation", "transform"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/log_operator"],
