@@ -1,10 +1,21 @@
 library(tercen)
 library(dplyr)
 
-(ctx = tercenCtx())  %>% 
+ctx <- tercenCtx()
+base <- ctx$op.value('base', as.double, 10)
+do.log1p <- ctx$op.value('do.log1p', as.logical, TRUE)
+
+do.log <- function(x, base, do.log1p) {
+  if(do.log1p) return(log(x + 1, base = base))
+  else return(log(x, base = base))
+}
+
+df_out <- ctx %>% 
   select(.y, .ci, .ri) %>% 
-  group_by(.ci, .ri) %>%
-  summarise(log = log(mean(.y), base=as.double(ctx$op.value('base')))) %>%
-  ctx$addNamespace() %>%
+  mutate(log = do.log(.y, base = base, do.log1p = do.log1p)) %>%
+  ctx$addNamespace()
+
+df_out %>%
   ctx$save()
- 
+
+tim::build_test_data(df_out, ctx, test_name = "test", r2 = 0.99)
