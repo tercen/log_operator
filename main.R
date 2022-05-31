@@ -17,5 +17,3 @@ df_out <- ctx %>%
 
 df_out %>%
   ctx$save()
-
-tim::build_test_data(df_out, ctx, test_name = "test", r2 = 0.99)

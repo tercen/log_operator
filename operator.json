@@ -10,6 +10,12 @@
     "name": "base",
     "defaultValue": 10,
     "description": "The base with respect to which logarithms are computed."
+  },
+     {
+    "kind": "BooleanProperty",
+    "name": "do.log1p",
+    "defaultValue": false,
+    "description": "Whether to add 1 to all values before computing log."
   }
 ]
 }
