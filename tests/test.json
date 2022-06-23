@@ -11,6 +11,13 @@
   "colors": [
     "sex"
   ],
+  "propertyValues": [
+    {
+      "kind": "PropertyValue",
+      "name": "do.log1p",
+      "value": "true"
+    }
+  ],
   "labels": [],
   "yAxis": "y_values",
   "xAxis": "",
