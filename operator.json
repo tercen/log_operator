@@ -1,7 +1,7 @@
 {
   "name": "Log",
   "description": "Transforms cell by calculating the logarithmic values.",
-  "tags": ["data wrangling", "data transformation", "transform"],
+  "tags": ["data wrangling", "data transformation"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/log_operator"],
   "properties": [
