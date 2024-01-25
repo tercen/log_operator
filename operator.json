@@ -1,23 +1,28 @@
 {
   "name": "Log",
   "description": "Transforms cell by calculating the logarithmic values.",
-  "tags": ["data wrangling", "data transformation"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/log_operator"],
+  "tags": [
+    "preprocessing",
+    "transformation"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/log_operator"
+  ],
   "properties": [
-   {
-    "kind": "DoubleProperty",
-    "name": "base",
-    "defaultValue": 10,
-    "description": "The base with respect to which logarithms are computed."
-  },
-     {
-    "kind": "BooleanProperty",
-    "name": "do.log1p",
-    "defaultValue": false,
-    "description": "Whether to add 1 to all values before computing log."
-  }
-]
+    {
+      "kind": "DoubleProperty",
+      "name": "base",
+      "defaultValue": 10,
+      "description": "The base with respect to which logarithms are computed."
+    },
+    {
+      "kind": "BooleanProperty",
+      "name": "do.log1p",
+      "defaultValue": false,
+      "description": "Whether to add 1 to all values before computing log."
+    }
+  ]
 }
-
-
