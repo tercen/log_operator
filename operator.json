@@ -1,6 +1,6 @@
 {
   "name": "Log",
-  "description": "Transforms cell by calculating the logarithmic values.",
+  "description": "Computes the logarithm value of your data.",
   "tags": [
     "preprocessing",
     "transformation"
